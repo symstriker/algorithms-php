@@ -1,0 +1,25 @@
+{
+    "name": "symstriker/algorithms-php",
+    "description": "PHP algorithms",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Yevhen Straihorodskyi",
+            "email": "indestructible86@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Symstriker\\Algorithms\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": { "Symstriker\\Test\\": "test/" }
+    },
+    "require": {
+        "php": ">=5.4.1"
+    },
+    "require_dev": {
+        "phpunit/phpunit": "4.3.*"
+    }
+}
